@@ -1,0 +1,5 @@
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6,form, input, button,textarea, p, th, td {margin: 0;padding: 0;}
+html,body{height: 100%;}
+.container{width: 1200px;margin: 0 auto;}
+.main{width: 1080px;margin: 0 auto;}
+.index-logo{height: 133px;background:url(../img/index-logo.jpg) no-repeat center;background-size: contain;}
