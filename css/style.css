@@ -11,6 +11,8 @@ input{outline: none;}
 .bg-gray{background-color: #f2f2f2;}
 .hidden{overflow: hidden;}
 .relative{position: relative;}
+.clearfix:after{clear:both;content:".";display:block;height:0;line-height:0;visibility:hidden;}
+.clearfix{zoom:1;}
 /* margin */
 .mt20{margin-top: 20px;}
 .mr20{margin-right: 20px;}
@@ -43,7 +45,26 @@ input{outline: none;}
 .navbar ul li a{display:block;width: 115px;line-height: 42px;text-align: center;font-size: 18px;color: #fff;}
 .navbar ul li a.current{background-color:rgba(0, 0, 0, .26); }
 .banner{height: 350px;overflow: hidden;}
-.banner-photo{width:726px;height: 350px;}
+.banner-photo,.section-focus-pic .pages{width:726px;height: 350px;}
+.section-focus-pic{height:100%;width:100%;overflow:hidden;position:relative;}
+.section-focus-pic ul li{position:absolute;top:0;left:726px;width:726px;height:350px;}
+.section-focus-pic ul li img{width: 726px;height: 350px;}
+.section-focus-pic ul li a{color: #fff;}
+.section-focus-pic ul li h3{position:absolute;bottom:11px;left:0;right: 90px; font-weight:normal;color:#FFF;margin-left: 25px;z-index: 111;font-size: 18px;font-weight: bold;}
+.section-focus-pic ul li div{position:absolute;bottom:0;left:0;height:46px;background-color:#000;width:100%;opacity: 0.54;filter: alpha(opacity=54);}
+.section-focus-pic .controler{position:absolute;bottom:20px;right:25px;}
+.section-focus-pic .controler b{cursor:pointer;width:8px;height:8px;display:block;overflow:hidden; float:left;margin:0 0 0 10px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%; background-color: rgba(255, 255, 255, .6);text-indent: 20px;}
+.section-focus-pic .controler b.down{background-color: rgba(255, 255, 255, 1)}
+.section-focus-pic .controler2 a{display:block; width:40px;position:absolute;top:120px;height:40px;}
+.section-focus-pic .controler2 a i{cursor:pointer;display:block;width:22px;height:34px; background:url(../img/star.png) no-repeat;}
+.section-focus-pic .controler2 .prev{left:5px;}
+.section-focus-pic .controler2 .prev i{background-position:-34px -68px;margin-left:5px;}
+.section-focus-pic .controler2 .prev:hover i{left:10px;background-position:-34px -24px;}
+.section-focus-pic .controler2 .next{right:10px;}
+.section-focus-pic .controler2 .next i{background-position:-62px -68px;margin-left:10px;}
+.section-focus-pic .controler2 .next:hover i{right:10px;background-position:-62px -24px;}
+
+
 .banner-news{width:338px;height: 350px;}
 .news-title{height: 48px;line-height: 48px; border-bottom: solid 2px #fff;overflow: hidden;}
 .news-title strong{border-bottom: solid 2px #b22c30;font-size: 18px;font-weight: bold;margin-bottom: -2px; display:block;float: left;}
