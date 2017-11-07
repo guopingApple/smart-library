@@ -107,3 +107,15 @@ input{outline: none;}
 .tpp{margin: 18px 0 16px;}
 /* database */
 .dataBase{height: 432px;overflow: hidden;}
+.base-title{overflow: hidden;padding: 16px 0;}
+.base-title li{float: left;width: 25%;height: 28px;line-height: 28px;}
+.base-title li a{display: block;width: 57px;height: 28px;font-size: 12px;color: #444;font-weight: bold;text-align: center;}
+.base-title li a.current{color: #fff;background-color: #8a090e;}
+.base-sort{position: absolute;top: 0;left: 0;}
+.base-sort ul{padding: 0 8px;float: left;font-size: 14px;line-height: 14px; color: #444;font-weight: bold;}
+.base-sort ul li{text-align: center;height: 23.5px;}
+.base-sort ul li a{color: #444;}
+.base-content{padding-left: 69px;}
+.base-result{border:solid 1px #e4e4e4;background-color: #fff;padding: 8px 0 0 22px;height: 288px;overflow: auto;}
+.base-result li{width: 33.33%;float: left;height: 32px;}
+.base-result li a{color: #989898;font-size: 16px;}
