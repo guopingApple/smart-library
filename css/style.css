@@ -40,7 +40,7 @@ input{outline: none;}
 .header-search li{overflow: hidden;margin-top: 30px;}
 .btn-search{display: block; width: 54px;height: 28px;line-height: 28px; background-color:#aa1f23;font-size: 18px;text-align: center;color: #fff;margin-top: 1px;}
 .login-bar{background-color:rgba(54, 38, 16, .2);width:108px;height: 28px;line-height: 28px; text-align: center;font-size: 16px;color: #390002;display:block;overflow: hidden;}
-.login-bar a{margin: 0 6px;display: inline-block;}
+.login-bar a{margin: 0 6px;display: inline-block;color: #390002;}
 /* navbar */
 .navbar{height: 42px;background: #8a090e url(../img/navbar.jpg) repeat-x left;}
 .navbar ul{overflow: hidden;}
@@ -134,3 +134,18 @@ input{outline: none;}
 .user-form ul li{overflow: hidden;margin-bottom: 15px;}
 .user-form ul li label{width: 80px;display:block;float: left;color: #1c1c1c;font-size: 14px;font-weight: bold;line-height: 40px;}
 .user-form ul li input{height: 40px;width: 293px;border:solid 1px #d1d1d1;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px; border-radius: 3px;background-color: #f4f4f4;padding:0 20px;}
+/* listContent */
+.listContent{width: 1120px;margin: 42px auto 0;overflow: hidden;padding-bottom: 170px;}
+.leftMenu{width: 229px;float: left;background-color: #f6f6f6;border: 1px solid #cdcdcd;border-bottom: 0;}
+.leftMenu li{height: 48px;line-height: 48px;border-bottom:1px solid #cdcdcd;font-size: 14px;font-weight: bold;color: #242424;text-align: center;}
+.leftMenu li a{color: #242424;display: block;}
+.leftMenu li a.current{background-color: #e3e3e3;}
+.listRight{width: 858px;float: right;}
+.listNavbar{height: 48px;line-height: 48px; background: #f6f6f6 url(../img/arrow.png) no-repeat 26px 17px;border: 1px solid #cdcdcd;font-size: 14px;font-weight: bold;color: #242424;padding-left: 48px;}
+.listRight ul {background: #f6f6f6;border: 1px solid #cdcdcd;padding: 28px 28px 0;margin: 20px 0 45px 0;}
+.listRight ul li{height: 46px;overflow: hidden;font-size: 14px;font-weight: bold;}
+.listRight ul li a{display: block;float: left;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width: 570px;color: #242424;}
+.listRight ul li span{display: block;float: right;color: #8d8d8d;}
+.pages{height: 48px;line-height: 48px; background: #f6f6f6;border: 1px solid #cdcdcd;padding: 0 48px;}
+.pages a{display: inline-block;color: #242424;font-size: 14px;font-weight: bold;margin: 0 14px;}
+.pages a.curr{color: #8a090e;}
