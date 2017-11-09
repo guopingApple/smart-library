@@ -24,6 +24,8 @@ input{outline: none;}
 .pt20{padding-top: 20px;}
 .pt15{padding-top: 15px;}
 .p10_0{padding: 10px 0;}
+.pt50{padding-top: 50px;}
+.pb100{padding-bottom: 100px;}
 /* .border-radius */
 .border-radius5{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px; border-radius: 5px;}
 /* input */
@@ -90,7 +92,7 @@ input{outline: none;}
 .video dd h4{color: #101010;font-size: 16px;font-weight: bold;padding: 12px 0 22px;}
 .video dd p{color: #7a7a7a;font-size: 14px;font-weight: bold;line-height: 25px;text-align: justify;height: 150px;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;-webkit-text-overflow: ellipsis;-moz-text-overflow: ellipsis;word-break: break-all;display: -webkit-box;-webkit-line-clamp: 6;-webkit-box-orient: vertical;}
 /* footer */
-.footer{height: 200px;background-color: #333;}
+.footer{height: 200px;background-color: #333;clear: both;}
 .footer-icon-left{position: absolute;z-index: 1;top: 0;left: -49px;}
 .footer-icon-right{position: absolute;z-index: 1;top: 0;right: -42px;}
 .footer ul{height: 170px;background:url(../img/footer-logo.gif) no-repeat left center;position: absolute;top: 0;left: 200px;z-index: 2;padding:30px 0 0 250px;font-size: 12px;color: #999;line-height: 30px;}
@@ -152,7 +154,7 @@ input{outline: none;}
 .pages a.curr{color: #8a090e;}
 .current-nav{width: 1150px;padding: 35px 0;margin:0 auto 10px;font-size: 16px;font-weight: bold;color: #818181;}
 .current-nav a{color: #818181;}
-.listContent-details{width: 1080px;margin: 0 auto;}
+.listContent-details{width: 1080px;margin: 0 auto;overflow: hidden;}
 .listContent-details .article{width: 740px;float: left;}
 .Recommend{width: 296px;float: right;}
 .Recommend .recList{background-color: #f6f6f6;border: 1px solid #cdcdcd;margin-bottom: 40px;}
@@ -160,3 +162,6 @@ input{outline: none;}
 .Recommend .recList ul{padding:15px 18px 10px;}
 .Recommend .recList ul li{height:33px;}
 .Recommend .recList ul li a{color:#5d5d5d;font-weight: bold;font-size: 14px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width: 258px;display: inline-block;}
+.listContent-details .article h3{height: 105px;color: #353535;font-size: 16px;font-weight: bold;border-bottom: dotted 1px #d5d5d5;text-align: center;}
+.listContent-details .article h3 p{text-align: right;position: absolute;right: 0;bottom: 26px;color: #656565;font-weight: bold;font-size: 14px;}
+.listContent-details .article-content p{color: #656565;font-weight: bold;font-size: 14px;line-height: 24px;text-indent: 1em;margin-bottom: 20px;text-align: justify;}
