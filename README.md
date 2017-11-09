@@ -1,4 +1,5 @@
 # smart-library
+# 新闻列表 news
 # 决策热点 hotspots
 # 通知公告 notice
 # 会议集萃 conference

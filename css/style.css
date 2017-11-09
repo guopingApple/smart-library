@@ -1,7 +1,7 @@
 body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6,form, input, button,textarea, p, th, td {margin: 0;padding: 0;}
 ul,li{list-style: none;}
 html,body{height: 100%;}
-body{font-family: MTD, '微软雅黑';}
+body{font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;}
 img{vertical-align: top;}
 a{cursor: pointer;outline: none;text-decoration: none;}
 input{outline: none;}
@@ -165,3 +165,10 @@ input{outline: none;}
 .listContent-details .article h3{height: 105px;color: #353535;font-size: 16px;font-weight: bold;border-bottom: dotted 1px #d5d5d5;text-align: center;}
 .listContent-details .article h3 p{text-align: right;position: absolute;right: 0;bottom: 26px;color: #656565;font-weight: bold;font-size: 14px;}
 .listContent-details .article-content p{color: #656565;font-weight: bold;font-size: 14px;line-height: 24px;text-indent: 1em;margin-bottom: 20px;text-align: justify;}
+/* news */
+.news-list-page{width: 1110px;margin: 0 auto; padding-left: 30px;}
+.news-list-page li{height: 241px;overflow: hidden;margin-bottom: 55px;}
+.news-list-page li .img{width: 484px;height: 241px;overflow: hidden;float: left;margin-right: 42px;}
+.news-list-lpage li .img img{width: 484px;height: 241px;}
+.news-list-page li h3{padding-top: 20px;height: 50px;color: #353535;font-size: 16px;font-weight: bold;}
+.news-list-page li p{color: #656565;font-size: 14px;font-weight: bold;line-height: 24px;text-align: justify;}
