@@ -1,4 +1,7 @@
 # smart-library
+# 首页 index
+# 登录 login
+# 注册 register
 # 新闻列表 news
 # 音频视频 video
 # 决策热点 hotspots
