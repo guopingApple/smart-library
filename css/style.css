@@ -221,6 +221,7 @@ input{outline: none;}
 .org-intro-left{border-bottom: 1px solid #cdcdcd;padding: 17px 0;}
 .org-intro-left li{border-bottom: 0;line-height: 40px;height: 40px;}
 .orgIntro-article{ margin-top: 20px;font-weight: bold;font-size: 14px;color: #000;line-height: 24px;}
+orgIntro-article p{text-align: justify;}
 .orgIntro-leader{margin: 20px 0;border-top: dotted 1px #cdcdcd;}
 .orgIntro-leader dl{border-bottom: dotted 1px #cdcdcd;}
 .orgIntro-leader dt{padding: 23px 0 15px;padding-left: 5px;}
