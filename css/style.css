@@ -206,3 +206,10 @@ input{outline: none;}
 .ach-search-R li span{width: 18px;height: 18px;border:solid 1px #cdcdcd;display: inline-block;background-color: #fff;position: relative;top: 4px;margin-right: 8px;}
 .ach-search-R li .radios{min-width: 87px;display: inline-block;}
 .ach-search-R li .radios em{line-height: 28px;}
+.ach-list{padding: 32px 90px 0 10px;}
+.ach-list li{margin-bottom: 32px;font-weight: bold;font-size: 14px;line-height: 22px;}
+.ach-list li h3{height: 27px;color: #f49500;overflow: hidden;font-size: 14px;}
+.ach-list li h3 span{color: #929292;float: left;font-weight: normal;}
+.ach-list li h6{color: #929292;font-size: 14px;height: 25px;}
+.ach-list li p{color: #242424;text-align: justify;height: 44px;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;-webkit-text-overflow: ellipsis;-moz-text-overflow: ellipsis;word-break: break-all;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.ach-list li h3 a{display: block;width: 412px;float: left;overflow: hidden;white-space: nowrap;margin-right: 70px;}
