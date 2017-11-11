@@ -27,6 +27,7 @@ input{outline: none;}
 .pt50{padding-top: 50px;}
 .pb100{padding-bottom: 100px;}
 .pl10{padding-left: 10px;}
+.pl30{padding-left: 30px;}
 /* .border-radius */
 .border-radius3{-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px; border-radius: 3px;}
 .border-radius5{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px; border-radius: 5px;}
@@ -215,3 +216,14 @@ input{outline: none;}
 .ach-list li p{color: #242424;text-align: justify;height: 44px;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;-webkit-text-overflow: ellipsis;-moz-text-overflow: ellipsis;word-break: break-all;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
 .ach-list li h3 a{display: block;width: 412px;float: left;overflow: hidden;white-space: nowrap;margin-right: 70px;}
 .listContent-org{width: 1120px;margin: 0 auto;overflow: hidden;}
+/* 智库机构 */
+.listRight-orgIntro .listNavbar{background-image: none;}
+.org-intro-left{border-bottom: 1px solid #cdcdcd;padding: 17px 0;}
+.org-intro-left li{border-bottom: 0;line-height: 40px;height: 40px;}
+.orgIntro-article{ margin-top: 20px;font-weight: bold;font-size: 14px;color: #000;line-height: 24px;}
+.orgIntro-leader{margin: 20px 0;border-top: dotted 1px #cdcdcd;}
+.orgIntro-leader dl{border-bottom: dotted 1px #cdcdcd;}
+.orgIntro-leader dt{padding: 23px 0 15px;padding-left: 5px;}
+.orgIntro-leader dd{height: 39px;padding-left: 36px;line-height: 15px;}
+.orgIntro-leader dd b{width: 138px;display: inline-block;}
+.orgIntro-leader dd span{color:#4b4b4b;}
