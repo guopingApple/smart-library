@@ -21,6 +21,7 @@ input{outline: none;}
 .mb20{margin-bottom: 20px;}
 .mb15{margin-bottom: 15px;}
 .mb10{margin-bottom: 10px;}
+.mr30{margin-right: 30px;}
 /* padding */
 .p0_17{padding: 0 17px;}
 .pt20{padding-top: 20px;}
@@ -274,3 +275,7 @@ orgIntro-article p{text-align: justify;}
 .org-search-result ol li{position: relative;padding-left: 57px;font-size: 16px;line-height: 36px;}
 .org-search-result ol li span{position: absolute;left: 0;color: #b20309;}
 .org-search-result ol li a{color: #242424;margin-right: 30px;}
+/* 数据库 */
+.database-search{padding: 35px 0 0 0;margin-bottom: -10px;}
+.database-search input{width: 160px;}
+.database-search input.bgnone{background-image: none;}
