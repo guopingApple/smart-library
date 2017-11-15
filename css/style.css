@@ -279,3 +279,13 @@ orgIntro-article p{text-align: justify;}
 .database-search{padding: 35px 0 0 0;margin-bottom: -10px;}
 .database-search input{width: 160px;}
 .database-search input.bgnone{background-image: none;}
+/* 专家 */
+.leftMenu li.expert{height: auto;line-height: 35px; padding: 39px 60px 30px;}
+.expert dl{color: #b93131;font-size: 14px;line-height: 28px;padding: 10px 0 20px}
+.expert dt{font-size: 16px;color: #a21010;padding-bottom: 5px;}
+.expert .expert-nav a{color: #393939;}
+.expert-info dl{font-size: 14px;line-height: 24px;padding: 0 0 10px;}
+.expert-info dt{color: #000;font-weight: bold;line-height: 40px;}
+.expert-info dd{color: #4b4b4b;padding-left: 35px;}
+.expert-info dd a{color: #4b4b4b;}
+.expert-info dl .more a{color: #999;font-size: 12px;}
