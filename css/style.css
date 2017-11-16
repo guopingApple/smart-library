@@ -173,7 +173,7 @@ input{outline: none;}
 .Recommend .recList ul li{height:33px;}
 .Recommend .recList ul li a{color:#5d5d5d;font-weight: bold;font-size: 14px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width: 258px;display: inline-block;}
 .listContent-details .article h3{height: 105px;color: #353535;font-size: 16px;font-weight: bold;border-bottom: dotted 1px #d5d5d5;text-align: center;}
-.listContent-details .article h3 p{text-align: right;position: absolute;right: 0;bottom: 26px;color: #656565;font-weight: bold;font-size: 14px;}
+.listContent-details .article h3 p{text-align: right;position: absolute;right: 0;bottom: 26px;color: #656565;font-weight: bold;font-size: 14px;left: 0;}
 .listContent-details .article-content p{color: #656565;font-weight: bold;font-size: 14px;line-height: 24px;text-indent: 1em;margin-bottom: 20px;text-align: justify;}
 /* news */
 .news-list-page{width: 1110px;margin: 0 auto; padding-left: 30px;}
@@ -181,6 +181,7 @@ input{outline: none;}
 .news-list-page li .img{width: 484px;height: 241px;overflow: hidden;float: left;margin-right: 42px;position:relative;}
 .news-list-lpage li .img img{width: 484px;height: 241px;}
 .news-list-page li h3{padding-top: 20px;height: 50px;color: #353535;font-size: 16px;font-weight: bold;}
+.news-list-page li h3 a{color: #353535;}
 .news-list-page li p{color: #656565;font-size: 14px;font-weight: bold;line-height: 24px;text-align: justify;}
 .btn-video{width: 60px;height: 60px; position: absolute;top: 50%;left: 50%;margin: -30px 0 0 -30px;z-index: 9;cursor: pointer;}
 .listContent-details .articel-video{width: 750px;}
@@ -219,7 +220,7 @@ input{outline: none;}
 .ach-list li h3 span{color: #929292;float: left;font-weight: normal;}
 .ach-list li h6{color: #929292;font-size: 14px;height: 25px;}
 .ach-list li p{color: #242424;text-align: justify;height: 44px;overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;-webkit-text-overflow: ellipsis;-moz-text-overflow: ellipsis;word-break: break-all;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
-.ach-list li h3 a{display: block;width: 412px;float: left;overflow: hidden;white-space: nowrap;margin-right: 70px;}
+.ach-list li h3 a{display: block;width: 412px;float: left;overflow: hidden;white-space: nowrap;margin-right: 70px;color: #f49500;}
 .listContent-org{width: 1120px;margin: 0 auto;overflow: hidden;}
 /* 智库机构 */
 .listRight-orgIntro .listNavbar{background-image: none;}
